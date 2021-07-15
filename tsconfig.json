@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "outDir": "lib",
+    "moduleResolution": "node",
+    "declaration": true,
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "lib",
+    "node_modules"
+  ]
+}

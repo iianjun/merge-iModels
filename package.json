@@ -1,0 +1,37 @@
+{
+  "name": "merge-imodels",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "source": "./src/index.js",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {},
+  "dependencies": {
+    "@bentley/bentleyjs-core": "^2.6.4",
+    "@bentley/geometry-core": "^2.6.4",
+    "@bentley/imodeljs-common": "^2.6.4",
+    "@bentley/imodeljs-backend": "^2.6.4",
+    "fs-extra": "^8.1.0",
+    "@bentley/context-registry-client": "^2.6.4",
+    "@bentley/electron-manager": "^2.6.4",
+    "@bentley/imodelhub-client": "^2.6.4",
+    "@bentley/itwin-client": "^2.6.4",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "@bentley/eslint-plugin": "^2.6.4",
+    "@types/fs-extra": "^4.0.7",
+    "@types/node": "10.14.1",
+    "@types/request-promise-native": "^1.0.15",
+    "eslint": "^7.11.0",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.3.0"
+  },
+  "files": [
+    "/lib"
+  ]
+}
